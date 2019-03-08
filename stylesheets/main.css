@@ -1,17 +1,83 @@
-.column {
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: rgb(143, 19, 19);
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+header h1 {
   float: left;
+  height: 40px;
+  width: 200px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.left {
-  width: 75%;
+header nav {
+  float: right;
 }
 
-.right {
-  width: 25%
+header nav li {
+  padding: 17px 10px;
+  font-size: 15px;
+  text-decoration: underline;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+header nav :hover {
+  background: rgb(107, 118, 115);
+  color: white;
+  cursor: pointer;
 }
+
+#links {
+  background: rgb(29, 35, 36);
+  color: white;
+  height: 40px;
+  padding: 0 25px;
+}
+
+#links nav {
+  float: right;
+}
+
+#links nav li {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+#links nav li:hover {
+  background: rgb(107, 118, 115);
+  color: white;
+  cursor: pointer;
+}
+
+#left {
+  width: 900px;
+  float: left;
+  padding: 0 25px;
+  margin-top: 25px;
+}
+
+#right {
+  width: 250 px;
+  float: right;
+  align-content: center;
+  padding: 0 25px;
+  margin-top: 25px;
+}
+
+#left h1 {
+  padding: 0 25px;
+}
+
+#left p {
+  padding: 0 25px;
+}
+
